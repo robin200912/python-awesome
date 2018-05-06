@@ -1,5 +1,4 @@
-# python-awesome
-我的python知识体系结构，逐步完善中......
+# 我的python知识体系结构，逐步完善中......
 
 ## Python基础
 1. 元祖
