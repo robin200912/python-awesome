@@ -8,7 +8,7 @@ from scrapy_redis.spiders import RedisCrawlSpider
 
 class CrawlRedisSpiderSpider(RedisCrawlSpider):
     name = 'baidu'
-    allowed_domains = ['www.baidu.com']
+    allowed_domains = ['baidu.com']
     redis_key = 'baidu:start_urls'
 
     rules = (
