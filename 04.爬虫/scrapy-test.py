@@ -10,6 +10,6 @@ class BaiduSpider(scrapy.Spider):
     def parse(self, response):
         print response.xpath('//a/text()').extract_first()
 
-        return {
+        yield {
             'url': response.url
         }
