@@ -30,4 +30,5 @@
 
 ## 机器学习
 1. scikit-learn
-2. tensorflow
+2. keras
+3. tensorflow
