@@ -10,7 +10,7 @@ class BaiduSpider(scrapy.Spider):
     def parse(self, response):
         print response.xpath('//a/text()').extract_first()
 
-        for link in response.xpath('//a/@href').extract():
+        for url in response.xpath('//a/@href').extract():
             yield {
-                'link': link
+                'url': url
             }
