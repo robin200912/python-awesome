@@ -9,6 +9,7 @@ class A(object):
 a = A()
 a.name = 'robin'
 
+# 保存对象
 a = pickle.dumps(a)
 print type(a)
 
