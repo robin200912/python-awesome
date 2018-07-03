@@ -1,9 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
+import getpass
 import time
 
-driver = webdriver.Chrome()
+option = webdriver.ChromeOptions()
+option.add_argument(r'--user-data-dir=C:/Users/{}/AppData/Local/Google/Chrome/User Data'.format(getpass.getuser()))
+driver = webdriver.Chrome(chrome_options=option)
 
 node = driver.find_elements_by_class_name('a-b-c')
 
