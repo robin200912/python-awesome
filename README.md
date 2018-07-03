@@ -21,7 +21,6 @@
 3. xpath
 4. 正则表达式
 5. scrapy
-6. puppeteer
 
 ## 数据分析
 1. numpy
